@@ -25,5 +25,5 @@ https://stormy-sands-04554.herokuapp.com/
 
 If the application is buggy or not working, contact me and I will debug and update accordingly!
 
-Contact:
+#### Contact:
 gmail: davishochs [at] gmail.com
