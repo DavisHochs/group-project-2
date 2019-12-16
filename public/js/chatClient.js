@@ -7,13 +7,17 @@ $(function() {
     const clientRoomName = $('#roomname').text();
 
     // Initialize socket connection
+<<<<<<< HEAD
     const socket = io('https://stormy-sands-04554.herokuapp.com');
+=======
+    const socket = io();
+>>>>>>> 6600c00a334904005da0e3fba213f64385e6cb63
     socket.on('connect', function() {
 
         console.log('Client socket connected', socket.id);
 
         // Join client to current chatroom
-        socket.emit('join', clientRoomName);
+        socket.emit('join', {user: 'test', clientRoomName});
 
 
         // Client-side new message listener
